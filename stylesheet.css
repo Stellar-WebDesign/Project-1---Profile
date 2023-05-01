@@ -1,0 +1,21 @@
+
+body {
+    color:rgb(0, 0, 0)
+}
+.text1 {
+    color: rgb(150, 150, 1);
+    font-family: "Lucida Console", monospace;
+}
+.rainbow {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 5%, rgba(255,161,0,1) 15%, rgba(255,248,0,1) 25%, rgba(74,255,0,1) 35%, rgba(0,237,255,1) 45%, rgba(0,5,255,1) 55%, rgba(175,0,255,1) 65%, rgba(255,0,125,1) 75%, rgba(255,0,0,1) 85%);
+}
+.item {
+    padding: 1rem;
+  }
+  .container {
+    display:flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
